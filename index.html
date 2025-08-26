@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TaskFlow</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.7.4/lottie.min.js"></script>
+</head>
+
+<body>
+  <header class="navbar">
+    <div class="logo">TaskFlow</div>
+    <nav class="nav-links">
+      <a href="#features">Features</a>
+      <a href="#reviews">Reviews</a>
+      <a href="#pricing">Pricing</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <div class="nav-actions">
+      <button id="theme-toggle"><i class="fas fa-moon"></i></button>
+      <div class="hamburger"><span></span><span></span><span></span></div>
+    </div>
+  </header>
+
+  <section class="hero reveal">
+    <div id="particles-js"></div>
+    <div class="hero-content">
+      <h1>Organize Your Tasks Seamlessly</h1>
+      <p>Boost your productivity with TaskFlow – simple, fast, powerful.</p>
+      <a href="#pricing" class="btn ripple">Get Started</a>
+    </div>
+  </section>
+
+  <section id="features" class="features reveal">
+    <h2>Features</h2>
+    <div class="feature-cards">
+      <div class="card">
+        <div class="lottie" id="lottie-1"></div>
+        <h3>Easy Management</h3>
+        <p>Create, edit, and track tasks effortlessly.</p>
+      </div>
+      <div class="card">
+        <div class="lottie" id="lottie-2"></div>
+        <h3>Team Collaboration</h3>
+        <p>Work with your team and boost efficiency.</p>
+      </div>
+      <div class="card">
+        <div class="lottie" id="lottie-3"></div>
+        <h3>Fast & Secure</h3>
+        <p>Lightning speed with industry-grade security.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="stats" class="stats reveal">
+    <div class="stat">
+      <span class="counter" data-target="10000">0</span>+ Users
+    </div>
+    <div class="stat">
+      <span class="counter" data-target="50">0</span>+ Teams
+    </div>
+    <div class="stat">
+      <span class="counter" data-target="99.9">0</span>% Uptime
+    </div>
+  </section>
+
+  <section id="reviews" class="reviews reveal">
+    <h2>What Our Users Say</h2>
+    <div class="review-cards">
+      <div class="review">
+        <p>"TaskFlow changed the way I organize work. Love it!"</p>
+        <span>- Shayan Ali</span>
+      </div>
+      <div class="review">
+        <p>"Perfect for my team. We are more productive than ever."</p>
+        <span>- Bunty</span>
+      </div>
+      <div class="review">
+        <p>"Sleek, intuitive, and fast. Highly recommended!"</p>
+        <span>- Babli</span>
+      </div>
+    </div>
+  </section>
+
+  <section id="pricing" class="pricing reveal">
+    <h2>Pricing Plans</h2>
+    <div class="pricing-cards">
+      <div class="price-card">
+        <h3>Free</h3>
+        <p class="price">$0/month</p>
+        <ul>
+          <li>Basic Features</li>
+          <li>1 Team Member</li>
+        </ul>
+        <a href="#" class="btn ripple">Start Free</a>
+      </div>
+      <div class="price-card highlight">
+        <h3>Pro</h3>
+        <p class="price">$10/month</p>
+        <ul>
+          <li>All Features</li>
+          <li>Up to 5 Team Members</li>
+        </ul>
+        <a href="#" class="btn ripple">Go Pro</a>
+      </div>
+      <div class="price-card">
+        <h3>Team</h3>
+        <p class="price">$25/month</p>
+        <ul>
+          <li>Unlimited Features</li>
+          <li>Unlimited Members</li>
+        </ul>
+        <a href="#" class="btn ripple">Get Team</a>
+      </div>
+    </div>
+  </section>
+
+  <footer id="contact" class="footer">
+    <p>Contact us: support@taskflow.com</p>
+    <div class="socials">
+      <a href="#"><i class="fab fa-facebook"></i></a>
+      <a href="#"><i class="fab fa-twitter"></i></a>
+      <a href="#"><i class="fab fa-linkedin"></i></a>
+      <a href="#"><i class="fab fa-instagram"></i></a>
+    </div>
+    <p>© 2025 TaskFlow. All rights reserved.</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
